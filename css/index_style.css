@@ -1,0 +1,446 @@
+
+.main {
+    border: 1px solid #fff;
+    position: fixed;
+    height: 89%;
+    width: 93%;
+    transform: translate(3.5%, 6.5%);
+    z-index: 33
+}
+
+.main .btnn {
+    width: 45px;
+    height: 45px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px
+}
+
+.main .btnn:hover ,
+.main .menu:hover {
+    background-color: rgba(225, 225, 225, 0.35);
+    cursor: pointer
+}
+
+.main .menu {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    border-width: 0px 0px 1px 1px;
+}
+
+.main .menu .bars {
+    height: 80%;
+    width: 60%;
+    transform: translate(20%, 10%);
+    text-align: center
+}
+
+.main .menu .bars .bar {
+    background-color: #fff;
+    display: block;
+    width: 70%;
+    height: 5%;
+    margin: auto
+}
+
+.main .to-bottom {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-width: 1px 0px 0px 1px;
+}
+
+.main .to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 45px;
+    border-width: 1px 1px 0px 1px;
+}
+
+ul{
+    list-style-type: none
+}
+
+.main .social li .a1 {
+    position: fixed;
+    top: 45px;
+    right: 0px;
+    border-width: 0px 0px 1px 0px;
+}
+
+.main .social li .a2 {
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    border-width: 0px 0px 1px 0px;
+}
+
+.main .social li .a3 {
+    position: fixed;
+    top: 135px;
+    right: 0px;
+    border-width: 0px 0px 1px 0px;
+}
+.main .social li .btnn i{
+    font-size: 25px;
+    margin: 7px 10px
+}
+
+.main .social li .contract {
+    position: fixed;
+    top: 0px;
+    right: 45px;
+    width: 180px;
+    border-width: 0px 0px 0px 1px;
+    text-align: center;
+    padding: 9.5px;
+    text-decoration: none
+}
+
+
+
+.main .sm-divs .d5
+{
+    position: fixed;
+    bottom: 45px;
+    right: 0px;
+    width: 7px;
+    height: 18px;
+}
+
+.main .sm-divs .d4
+{
+    position: fixed;
+    bottom: 63px;
+    right: 0px;
+    width: 7px;
+    height: 18px;
+}
+.main .sm-divs .d3
+{
+    position: fixed;
+    bottom: 81px;
+    right: 0px;
+    width: 7px;
+    height: 18px;
+}
+.main .sm-divs .d2
+{
+    position: fixed;
+    bottom: 99px;
+    right: 0px;
+    width: 7px;
+    height: 18px;
+}
+.main .sm-divs .d1
+{
+    position: fixed;
+    bottom: 117px;
+    right: 0px;
+    width: 7px;
+    height: 18px;
+}
+.main .sm-divs a div
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 16px;
+    background-color: rgba(225,225,225,0.7)
+}
+.main .sm-divs a:hover > div
+{
+    background-color: #fff
+}
+
+/*-------left------------*/
+
+.main .left-menu li > a {
+    width: 96px;
+    height: 96px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.8em
+}
+
+.main .left-menu li > a:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: black
+}
+
+.main .logo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-width: 0px 1px 1px 0px;
+    padding: 0px;
+    width: 96px;
+    height: 96px;
+}
+
+.main .left-menu .H a {
+    position: fixed;
+    top: 96px;
+    left: 0px;
+    border-width: 0px 1px 1px 0px;
+}
+
+.main .left-menu span a {
+
+    color: white;
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    padding: 13px 7px 0px;
+    opacity: 0
+}
+
+.main .left-menu .H span a {
+    position: fixed;
+    top: 96px;
+    left: 96px;
+}
+
+.main .left-menu li:hover span a {
+    opacity: 1;
+    color: white
+}
+
+.main .left-menu span a:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -1px;
+    height: 1px;
+    width: 80px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.main .left-menu .A a {
+    position: fixed;
+    top: 192px;
+    left: 0px;
+    border-width: 0px 1px 1px 0px;
+}
+
+.main .left-menu .A span a {
+    position: fixed;
+    top: 192px;
+    left: 96px;
+}
+
+.main .left-menu .W a {
+    position: fixed;
+    top: 288px;
+    left: 0px;
+    border-width: 0px 1px 1px 0px;
+}
+
+.main .left-menu .W span a {
+    position: fixed;
+    top: 288px;
+    left: 96px;
+}
+
+.main .left-menu .C a {
+    position: fixed;
+    top: 384px;
+    left: 0px;
+    border-width: 0px 1px 1px 0px;
+}
+
+.main .left-menu .C span a {
+    position: fixed;
+    top: 384px;
+    left: 96px;
+}
+
+
+/*--------------mycontainer----------------*/
+.mycontainer
+{
+    height: 89%;
+    width: 93%;
+    transform: translate(3.5%, 6.5%);
+    padding: 45px 60px 45px 96px
+}
+
+/*---------------header------------------*/
+
+header {
+    background-image: url(../images/gallery-91.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100%
+}
+.color {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%
+}
+header .left
+{
+    display: flex;
+    flex-direction: column
+}
+header .left .all{
+    margin-left: 16%;
+    padding-top: 18%
+    }
+header .left .all .name-parent
+{
+    height: 140px;
+    margin-bottom: 20px
+}
+header .left .all h2
+{
+    color: white;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: bold;
+    letter-spacing: -.1rem;
+    margin: 0rem auto 0rem;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    position: relative;
+    top: -140px
+    
+
+}
+header .left .name-skew
+{
+    width: 8.9rem;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: skewX(-30deg);
+    transform-origin: left bottom
+}
+header .left h2 .line
+{
+    display: flex;
+    align-content: center
+}
+header .left h2 .line .letter
+{
+    display: none
+}
+header .left h2 span
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+header .left h3
+{
+    color: white;
+    font-size: 1.65rem;
+    padding-left: 5%
+}
+header .right
+{
+    position: relative;
+}
+header .right .collect
+{
+    width: 78.5%;
+    margin: 45px 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub
+{
+    height: 25%;
+    border-width: 1px 1px 0px 1px;
+    border-color: white;
+    border-style: solid
+}
+.lsub
+{
+    border-width: 1px 1px 1px 1px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :960px){
+    .main .left-menu{display: none}
+    .main .logo{height: 10%;width: 10%}
+    .mycontainer{padding-left: 0px;padding-top:10%}
+    
+    
+    
+    
+}
+@media (max-width :720px){
+    header .left .all h2{
+        font-size: 3rem;
+        margin-left: 0px
+    }
+    header .left .all{
+        margin-left: 1.5rem}
+    .main .logo{height: 15%;width: 15%}
+    .mycontainer{padding-left: 0px;padding-top:15%}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
